@@ -18,6 +18,6 @@ from django.urls import path
 from first_app.views import *
 
 urlpatterns = [
-    path('', calc),
+    path('calc', calc),
     path('', say_hello),
 ]

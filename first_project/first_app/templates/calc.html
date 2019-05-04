@@ -5,8 +5,12 @@
     <title>Calculator</title>
 </head>
 <body>
-
-    <input type="text">
-
+    <form action="/calc" method="post">
+        {% csrf_token %}
+        number1 = <input type="text" name="num1">
+        number2 = <input type="text" name="num2">
+        <input type="submit" value="+">
+        <input type="text" name="sum" value="{{ sum }}">
+    </form>
 </body>
 </html>

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DjangoPractices.iml" filepath="$PROJECT_DIR$/.idea/DjangoPractices.iml" />
       <module fileurl="file://$PROJECT_DIR$/../PythonPracticeHackerRank/.idea/PythonPracticeHackerRank.iml" filepath="$PROJECT_DIR$/../PythonPracticeHackerRank/.idea/PythonPracticeHackerRank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DjangoClassProjects/first_site/.idea/first_site.iml" filepath="$PROJECT_DIR$/../DjangoClassProjects/first_site/.idea/first_site.iml" />
     </modules>
   </component>
 </project>

@@ -7,7 +7,10 @@ def say_hello(request):
 
 
 def calc(request):
-    n1 = request.POST['num1']
-    n2 = request.POST['num2']
-    sum = n1+n2
-    return render(request, 'calc.html', {'sum':sum})
+    d1 = {}
+    if request.POST:
+        n1 = float(request.POST['num1'])
+        n2 = float(request.POST['num2'])
+        sum = n1+n2
+        d1['sum'] = sum
+    return render(request, 'calc.html', d1)
