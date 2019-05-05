@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculator</title>
+
+    {% load static %}
+    <link rel='stylesheet' type='text/css' href="{% static "first_app/css/calc_style.css" %}" />
 </head>
 <body>
-    <form action="/calc" method="post">
-        {% csrf_token %}
-        number1 = <input type="text" name="num1"><br/>
-        number2 = <input type="text" name="num2"><br/>
-        <input type="submit" value="+"><br/>
-        <input type="text" name="sum" value="{{ sum }}">
-    </form>
+    <div id="background">
+        <div id="log">{{ log }}</div>
+        <div id="result">{{ result }}</div>
+        <input type="text" id='input' name="input"><br/>
+        <button id="clear">clear</button>
+        <button id="add">+</button>
+        <button id="subtract">-</button>
+        <button id="multiply">*</button>
+        <button id="equals">=</button>
+    </div>
 </body>
 </html>
