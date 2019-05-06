@@ -5,18 +5,23 @@
     <title>Calculator</title>
 
     {% load static %}
-    <link rel='stylesheet' type='text/css' href="{% static "first_app/css/calc_style.css" %}" />
+    <link rel='stylesheet' type='text/css' href="{% static 'first_app/css/calc.css' %}" />
+    <script type='text/javascript' charset='utf8' src="{% static 'first_app/js/jquery-1.11.3.min.js' %}"></script>
+    <script type='text/javascript' charset='utf8' src="{% static 'first_app/js/calc.js' %}"></script>
 </head>
 <body>
-    <div id="background">
-        <div id="log">{{ log }}</div>
-        <div id="result">{{ result }}</div>
-        <input type="text" id='input' name="input"><br/>
-        <button id="clear">clear</button>
-        <button id="add">+</button>
-        <button id="subtract">-</button>
-        <button id="multiply">*</button>
-        <button id="equals">=</button>
-    </div>
+    <form id="background" action="/calc" method="post">
+        {% csrf_token %}
+        <div id="container">
+            <div id="log">{{ log }}</div>
+            <div id="result">{{ result }}</div>
+            <input type="text" id='input1' name="input1"><br/>
+            <input type="text" id='input2' name="input2"><br/>
+            <input type="submit" id="clear">clear</input>
+            <input type="submit" id="add">+</input>
+            <input type="submit" id="subtract">-</input>
+            <input type="submit" id="multiply">*</input>
+        </div>
+    </form>
 </body>
 </html>
