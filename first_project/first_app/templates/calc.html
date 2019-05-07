@@ -10,18 +10,18 @@
     <script type='text/javascript' charset='utf8' src="{% static 'first_app/js/calc.js' %}"></script>
 </head>
 <body>
-    <form id="background" action="/calc" method="post">
+    <div id="background">
         {% csrf_token %}
         <div id="container">
-            <div id="log">{{ log }}</div>
-            <div id="result">{{ result }}</div>
+            <div id="log"></div>
+            <div id="result"></div>
             <input type="text" id='input1' name="input1"><br/>
             <input type="text" id='input2' name="input2"><br/>
-            <input type="submit" id="clear">clear</input>
-            <input type="submit" id="add">+</input>
-            <input type="submit" id="subtract">-</input>
-            <input type="submit" id="multiply">*</input>
+            <input type="submit" id="clear" class="mathBtn" value="clear"/>
+            <input type="submit" id="add" class="mathBtn" value="+"/>
+            <input type="submit" id="subtract" class="mathBtn" value="-"/>
+            <input type="submit" id="multiply" class="mathBtn" value="*"/>
         </div>
-    </form>
+    </div>
 </body>
 </html>

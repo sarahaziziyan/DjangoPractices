@@ -1,27 +1,32 @@
 $(document).ready(function(){
 
-//    $("#add").click(function(){
-//        $('#loading_page').show();
-//        $("#overlay").show();
-//        number1 = $("#input1").val();
-//        number2 = $("#input2").val();
-//        $.post("calc",
-//        {
-//            number1   : number1,
-//            number2   : number2
-//        },
-//        function(mydata, status){
-//            $('#loading_page').hide();
-//            $("#overlay").hide();
-////            var xml   = $(mydata);
-////            var code  = xml.find("code").text();
-////            var msg   = xml.find("msg").text();
-//            if(code == 0){
-//
-//            }else{
-//                alert(msg);
-//            }
-//        }); // end post
-//    })
+    $("#add").click(function(){
+        var csrfmiddlewaretoken = readCSRF();
+        var number1 = $("#input1").val();
+        var number2 = $("#input2").val();
+        $.post("/add",
+        {
+            csrfmiddlewaretoken: csrfmiddlewaretoken,
+            number1   : number1,
+            number2   : number2
+        },
+        function(mydata, status){
+
+            var xml   = $(mydata);
+            var sum  = xml.find("sum").text();
+            $("#result").html(sum);
+        }); // end post
+    })
+
+    $("#clear").click(function(){
+        $("#input1").val("");
+        $("#input2").val("");
+        $("#result").html("");
+    })
+
 
 })
+
+function readCSRF(){
+    return $("#background").find("[name='csrfmiddlewaretoken']").val();
+}

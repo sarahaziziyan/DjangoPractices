@@ -7,15 +7,19 @@ def say_hello(request):
 
 
 def calc(request):
-    d1 = {}
-    if request.POST:
-        n1 = float(request.POST['number1'])
-        n2 = float(request.POST['number2'])
-        sum = n1+n2
-        d1['sum'] = sum
-        return d1
-    else:
-        return render(request, 'calc.html', {})
+   return render(request, 'calc.html', {})
+
+
+def add(request):
+    n1 = float(request.POST['number1'])
+    n2 = float(request.POST['number2'])
+    sum = n1 + n2
+    d1 = "<info>" \
+            "<mydata>" \
+                "<sum>"+str(sum)+"</sum>" \
+            "</mydata>" \
+         "</info>"
+    return HttpResponse(d1)
 
 
 def read_data(request):
