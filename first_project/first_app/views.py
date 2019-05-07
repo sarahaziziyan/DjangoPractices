@@ -32,6 +32,16 @@ def subtract(request):
          "</info>"
     return HttpResponse(d1)
 
+def multiply(request):
+    n1 = float(request.POST['number1'])
+    n2 = float(request.POST['number2'])
+    result = n1 * n2
+    d1 = "<info>" \
+            "<mydata>" \
+                "<result>"+str(result)+"</result>" \
+            "</mydata>" \
+         "</info>"
+    return HttpResponse(d1)
 
 
 def read_data(request):

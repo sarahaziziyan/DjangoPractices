@@ -23,5 +23,6 @@ urlpatterns = [
     path('calc', calc),
     path('add', add),
     path('subtract', subtract),
+    path('multiply', multiply),
     path('', say_hello),
 ]
