@@ -24,5 +24,6 @@ urlpatterns = [
     path('add', add),
     path('subtract', subtract),
     path('multiply', multiply),
+    path('divide', divide),
     path('', say_hello),
 ]

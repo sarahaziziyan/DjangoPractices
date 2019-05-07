@@ -44,6 +44,18 @@ def multiply(request):
     return HttpResponse(d1)
 
 
+def divide(request):
+    n1 = float(request.POST['number1'])
+    n2 = float(request.POST['number2'])
+    result = n1 / n2
+    d1 = "<info>" \
+            "<mydata>" \
+                "<result>"+str(result)+"</result>" \
+            "</mydata>" \
+         "</info>"
+    return HttpResponse(d1)
+
+
 def read_data(request):
     return render(request, 'phone_book.html', {'rows': PhoneBook.objects.all()})
 
