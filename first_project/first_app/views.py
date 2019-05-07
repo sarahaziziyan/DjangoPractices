@@ -13,13 +13,25 @@ def calc(request):
 def add(request):
     n1 = float(request.POST['number1'])
     n2 = float(request.POST['number2'])
-    sum = n1 + n2
+    result = n1 + n2
     d1 = "<info>" \
             "<mydata>" \
-                "<sum>"+str(sum)+"</sum>" \
+                "<result>"+str(result)+"</result>" \
             "</mydata>" \
          "</info>"
     return HttpResponse(d1)
+
+def subtract(request):
+    n1 = float(request.POST['number1'])
+    n2 = float(request.POST['number2'])
+    result = n1 - n2
+    d1 = "<info>" \
+            "<mydata>" \
+                "<result>"+str(result)+"</result>" \
+            "</mydata>" \
+         "</info>"
+    return HttpResponse(d1)
+
 
 
 def read_data(request):

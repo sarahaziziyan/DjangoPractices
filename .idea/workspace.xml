@@ -5,10 +5,7 @@
       <change afterPath="$PROJECT_DIR$/../PythonPracticeHackerRank/ErrorsAndExceptions/ExceptionPractice.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PythonPracticeHackerRank/ErrorsAndExceptions/IncorrectRegex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/static/first_app/css/calc.css" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/static/first_app/css/calc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/first_app/static/first_app/js/calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/static/first_app/js/calc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/templates/calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/templates/calc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/first_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/first_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_project/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PythonPracticeHackerRank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonPracticeHackerRank/.idea/workspace.xml" afterDir="false" />
@@ -30,20 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_project/first_app/static/first_app/js/calc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="360">
+              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/first_project/first_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="220">
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -54,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="280">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding>
                 <element signature="e#637#669#0" expanded="true" />
               </folding>
@@ -105,11 +102,11 @@
         <option value="$PROJECT_DIR$/first_project/first_app/static/first_app/css/calc_style.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/first_project/first_app/models.py" />
-        <option value="$PROJECT_DIR$/first_project/first_project/urls.py" />
-        <option value="$PROJECT_DIR$/first_project/first_app/views.py" />
         <option value="$PROJECT_DIR$/first_project/first_app/templates/calc.html" />
         <option value="$PROJECT_DIR$/first_project/first_app/static/first_app/css/calc.css" />
         <option value="$PROJECT_DIR$/first_project/first_app/static/first_app/js/calc.js" />
+        <option value="$PROJECT_DIR$/first_project/first_project/urls.py" />
+        <option value="$PROJECT_DIR$/first_project/first_app/views.py" />
       </list>
     </option>
   </component>
@@ -313,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557146199250</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="calc developed:&#10; - add function works with ajax&#10; - clear function implemented">
+      <created>1557235551970</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557235551970</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -351,7 +355,8 @@
     <MESSAGE value="added calc_style static way" />
     <MESSAGE value="gitignore edited" />
     <MESSAGE value="phone_book added database integrated&#10;calc changed but still not working. have issues with submitting a form with multiple actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="phone_book added database integrated&#10;calc changed but still not working. have issues with submitting a form with multiple actions" />
+    <MESSAGE value="calc developed:&#10; - add function works with ajax&#10; - clear function implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="calc developed:&#10; - add function works with ajax&#10; - clear function implemented" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -491,26 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="e#637#669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/calc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -527,8 +512,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/first_project/first_app/static/first_app/js/calc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state relative-caret-position="360">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="e#637#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

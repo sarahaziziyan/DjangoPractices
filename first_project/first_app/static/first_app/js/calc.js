@@ -13,8 +13,25 @@ $(document).ready(function(){
         function(mydata, status){
 
             var xml   = $(mydata);
-            var sum  = xml.find("sum").text();
-            $("#result").html(sum);
+            var result  = xml.find("result").text();
+            $("#result").html(result);
+        }); // end post
+    })
+
+    $("#subtract").click(function(){
+        var csrfmiddlewaretoken = readCSRF();
+        var number1 = $("#input1").val();
+        var number2 = $("#input2").val();
+        $.post("/subtract",
+        {
+            csrfmiddlewaretoken: csrfmiddlewaretoken,
+            number1   : number1,
+            number2   : number2
+        },
+        function(mydata, status){
+            var xml   = $(mydata);
+            var result  = xml.find("result").text();
+            $("#result").html(result);
         }); // end post
     })
 
