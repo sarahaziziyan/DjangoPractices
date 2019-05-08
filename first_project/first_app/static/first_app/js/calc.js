@@ -1,72 +1,19 @@
 $(document).ready(function(){
 
     $("#add").click(function(){
-        var csrfmiddlewaretoken = readCSRF();
-        var number1 = $("#input1").val();
-        var number2 = $("#input2").val();
-        $.post("/add",
-        {
-            csrfmiddlewaretoken: csrfmiddlewaretoken,
-            number1   : number1,
-            number2   : number2
-        },
-        function(mydata, status){
-
-            var xml   = $(mydata);
-            var result  = xml.find("result").text();
-            $("#result").html(result);
-        }); // end post
+        calculate("add");
     })
 
     $("#subtract").click(function(){
-        var csrfmiddlewaretoken = readCSRF();
-        var number1 = $("#input1").val();
-        var number2 = $("#input2").val();
-        $.post("/subtract",
-        {
-            csrfmiddlewaretoken: csrfmiddlewaretoken,
-            number1   : number1,
-            number2   : number2
-        },
-        function(mydata, status){
-            var xml   = $(mydata);
-            var result  = xml.find("result").text();
-            $("#result").html(result);
-        }); // end post
+        calculate("subtract");
     })
 
     $("#multiply").click(function(){
-        var csrfmiddlewaretoken = readCSRF();
-        var number1 = $("#input1").val();
-        var number2 = $("#input2").val();
-        $.post("/multiply",
-        {
-            csrfmiddlewaretoken: csrfmiddlewaretoken,
-            number1   : number1,
-            number2   : number2
-        },
-        function(mydata, status){
-            var xml   = $(mydata);
-            var result  = xml.find("result").text();
-            $("#result").html(result);
-        }); // end post
+        calculate("multiply");
     })
 
     $("#divide").click(function(){
-        var csrfmiddlewaretoken = readCSRF();
-        var number1 = $("#input1").val();
-        var number2 = $("#input2").val();
-        $.post("/divide",
-        {
-            csrfmiddlewaretoken: csrfmiddlewaretoken,
-            number1   : number1,
-            number2   : number2
-        },
-        function(mydata, status){
-            var xml   = $(mydata);
-            var result  = xml.find("result").text();
-            $("#result").html(result);
-        }); // end post
+        calculate("divide");
     })
 
     $("#clear").click(function(){
@@ -75,8 +22,28 @@ $(document).ready(function(){
         $("#result").html("");
     })
 
-
 })
+
+function calculate(methodName){
+    var csrfmiddlewaretoken = readCSRF();
+    var number1 = $("#input1").val();
+    var number2 = $("#input2").val();
+    $.post("/calc",
+    {
+        csrfmiddlewaretoken: csrfmiddlewaretoken,
+        methodName : methodName,
+        number1    : number1,
+        number2    : number2
+    },
+    function(mydata, status){
+        var xml   = $(mydata);
+        var result  = xml.find("result").text();
+        $("#result").html(result);
+        if(xml.find("code").text()!=0){
+            alert (xml.find("msg").text());
+        }
+    }); // end post
+}
 
 function readCSRF(){
     return $("#background").find("[name='csrfmiddlewaretoken']").val();
