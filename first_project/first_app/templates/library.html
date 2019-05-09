@@ -1,0 +1,55 @@
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#container{
+    witdth : 200px;
+    height : 150px;
+    margin : 0 autho;
+}
+</style>
+<table border="2">
+    <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>price</th>
+    </tr>
+    {% for instance in rows %}
+        <tr>
+            <td>{{instance.title}}</td>
+            <td>{{instance.author}}</td>
+            <td>{{instance.price}}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+<div id="container">
+    <form action="/save_data" method="post">
+    {% csrf_token %}
+        Title:<input type="text" name="title" /><br>
+        Author:<input type="text" name="author" /><br>
+        Price:<input type="text" name="price" /><br>
+        <input type="submit" value="Save"><br>
+</form>
+</div>

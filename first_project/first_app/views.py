@@ -61,3 +61,13 @@ def save_data(request):
     new_ins = PhoneBook(name=request.POST['name'], phone=request.POST['phone'])
     new_ins.save()
     return read_data(request)
+
+
+def read_library_data(request):
+    return render(request, 'library.html', {'rows': Library.objects.all()})
+
+
+def save_library_data(request):
+    new_ins = Library(title=request.POST['title'], author=request.POST['author'], price=request.POST['price'])
+    new_ins.save()
+    return read_library_data(request)

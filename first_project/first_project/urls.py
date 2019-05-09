@@ -21,5 +21,6 @@ urlpatterns = [
     path('read_data', read_data),
     path('save_data', save_data),
     path('calc', calc),
+    path('read_library_data', read_library_data),
     path('', say_hello),
 ]
