@@ -22,5 +22,10 @@ urlpatterns = [
     path('save_data', save_data),
     path('calc', calc),
     path('read_library_data', read_library_data),
+    path('save_library_data', save_library_data),
+    path('search_library_data', search_library_data),
+    path('update_library_data', update_library_data, name='update_library_data'),
+    path('delete_library_data', delete_library_data),
+    path('edit_library_data', edit_library_data, name='edit_library_data'),
     path('', say_hello),
 ]

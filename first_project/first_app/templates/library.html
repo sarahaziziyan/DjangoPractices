@@ -24,10 +24,30 @@ th {
 }
 
 #container{
-    witdth : 200px;
+    /*width : 300px;*/
     height : 150px;
-    margin : 0 autho;
 }
+h2{
+    background: #ccc;
+}
+.label{
+    width: 60px;
+    display: inline-block;
+}
+input{
+    margin: 5px;
+}
+form {
+    border: 1px solid;
+    padding:10px;
+    float: left;
+    height: 200px;
+    width: 23%;
+}
+    .lineContainer{
+        width : 90%;
+        display: block;
+    }
 </style>
 <table border="2">
     <tr>
@@ -45,11 +65,51 @@ th {
 </table>
 
 <div id="container">
-    <form action="/save_data" method="post">
+
+    <div class="lineContainer">
+        <form action="/save_library_data" method="post">
+        {% csrf_token %}
+            <h2>Save:</h2><br>
+            <div class="label">Title:</div><input type="text" name="title" /><br>
+            <div class="label">Author:</div><input type="text" name="author" /><br>
+            <div class="label">Price:</div><input type="text" name="price" /><br>
+            <input type="submit" value="Save"><br>
+        </form>
+
+
+        <form action="/search_library_data" method="post">
+        {% csrf_token %}
+            <h2>Search:</h2><br>
+            <div class="label">Title:</div><input type="text" name="title" /><br>
+            <input type="submit" value="search"><br>
+        </form>
+    </div>
+
+    <div class="lineContainer">
+        <form action="/update_library_data" method="post">
     {% csrf_token %}
-        Title:<input type="text" name="title" /><br>
-        Author:<input type="text" name="author" /><br>
-        Price:<input type="text" name="price" /><br>
-        <input type="submit" value="Save"><br>
-</form>
+        <h2>Upadet:</h2><br>
+        <div class="label">Title:</div><input type="text" name="title" /><br>
+        <div class="label">Author:</div><input type="text" name="author" /><br>
+        <div class="label">Price:</div><input type="text" name="price" /><br>
+        <input type="submit" value="Update"><br>
+    </form>
+
+        <form action="/delete_library_data" method="post">
+    {% csrf_token %}
+        <h2>Delete:</h2><br>
+        <div class="label">Title:</div><input type="text" name="title" /><br>
+        <input type="submit" value="Delete"><br>
+    </form>
+    </div>
+     <div class="lineContainer">
+        <form action="/edit_library_data" method="post">
+        {% csrf_token %}
+        <h2>Edit:</h2><br>
+        <div class="label">Title:</div><input type="text" name="title" /><br>
+        <input type="submit" value="Edit"><br>
+    </form>
+
+    </div>
+
 </div>
