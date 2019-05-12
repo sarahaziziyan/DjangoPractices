@@ -8,6 +8,6 @@ class PhoneBook(Model):
 
 
 class Library(Model):
-    title = CharField(max_length=50)
-    author = CharField(max_length=50)
-    price = CharField(max_length=50)
+    title = CharField(max_length=50, verbose_name='عنوان')
+    author = CharField(max_length=50, verbose_name='نویسنده')
+    price = CharField(max_length=50, verbose_name='قیمت')
