@@ -97,5 +97,6 @@ def edit_library_data(request):
 def update_library_data(request):
     ins = Library.objects.get(title=request.POST['unique'])
     form = LibraryForm(data=request.POST, instance=ins)
-    form.save()
+    if form.is_valid():
+        form.save()
     return read_library_data(request)
