@@ -3,8 +3,9 @@ from .models import *
 
 class LibraryForm(ModelForm):
     class Meta:
-        model=Library
+        model=Book
         fields='__all__'
+
 
 
 

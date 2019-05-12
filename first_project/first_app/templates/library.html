@@ -67,7 +67,7 @@ form {
 <div id="container">
 
     <div class="lineContainer">
-        <form action="/save_library_data" method="post">
+        <form action="{% url 'save_book_data' %}" method="post">
         {% csrf_token %}
             <h2>Save:</h2><br>
             <div class="label">Title:</div><input type="text" name="title" /><br>
@@ -77,7 +77,7 @@ form {
         </form>
 
 
-        <form action="/search_library_data" method="post">
+        <form action="{% url 'search_book_data' %}" method="post">
         {% csrf_token %}
             <h2>Search:</h2><br>
             <div class="label">Title:</div><input type="text" name="title" /><br>
@@ -86,7 +86,7 @@ form {
     </div>
 
     <div class="lineContainer">
-        <form action="/update_library_data" method="post">
+        <form action="{% url 'update_book_data' %}" method="post">
     {% csrf_token %}
         <h2>Upadet:</h2><br>
         <div class="label">Title:</div><input type="text" name="title" /><br>
@@ -95,7 +95,7 @@ form {
         <input type="submit" value="Update"><br>
     </form>
 
-        <form action="/delete_library_data" method="post">
+        <form action="{% url 'delete_book_data' %}" method="post">
     {% csrf_token %}
         <h2>Delete:</h2><br>
         <div class="label">Title:</div><input type="text" name="title" /><br>
@@ -103,7 +103,7 @@ form {
     </form>
     </div>
      <div class="lineContainer">
-        <form action="/edit_library_data" method="post">
+        <form action="{% url 'edit_book_data' %}" method="post">
         {% csrf_token %}
         <h2>Edit:</h2><br>
         <div class="label">Title:</div><input type="text" name="title" /><br>

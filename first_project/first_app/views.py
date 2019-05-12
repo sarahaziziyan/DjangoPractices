@@ -62,19 +62,19 @@ def save_data(request):
     return read_data(request)
 
 
-def read_library_data(request):
-    return render(request, 'library.html', {'rows': Library.objects.all()})
+def read_book_data(request):
+    return render(request, 'library.html', {'rows': Book.objects.all()})
 
 
-def save_library_data(request):
-    new_ins = Library(title=request.POST['title'], author=request.POST['author'], price=request.POST['price'])
+def save_book_data(request):
+    new_ins = Book(title=request.POST['title'], author=request.POST['author'], price=request.POST['price'])
     new_ins.save()
-    return read_library_data(request)
+    return read_book_data(request)
 
 
-def search_library_data(request):
+def search_book_data(request):
     return render(request, 'library.html',
-                  {'rows': Library.objects.filter(title=request.POST['title'])})
+                  {'rows': Book.objects.filter(title=request.POST['title'])})
 
 
 # def update_library_data(request):
@@ -84,19 +84,20 @@ def search_library_data(request):
 #     inst.save()
 #     return read_library_data(request)
 
-def delete_library_data(request):
-    Library.objects.get(title=request.POST['title']).delete()
-    return read_library_data(request)
+def delete_book_data(request):
+    Book.objects.get(title=request.POST['title']).delete()
+    return read_book_data(request)
 
 
-def edit_library_data(request):
-    ins = Library.objects.get(title=request.POST['title'])
+def edit_book_data(request):
+    ins = Book.objects.get(title=request.POST['title'])
     form = LibraryForm(instance=ins)
     return render(request,'EditForm.html',{'form' : form , 'unique':request.POST['title']})
 
-def update_library_data(request):
-    ins = Library.objects.get(title=request.POST['unique'])
+
+def update_book_data(request):
+    ins = Book.objects.get(title=request.POST['unique'])
     form = LibraryForm(data=request.POST, instance=ins)
     if form.is_valid():
         form.save()
-    return read_library_data(request)
+    return read_book_data(request)
