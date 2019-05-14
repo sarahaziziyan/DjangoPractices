@@ -27,5 +27,7 @@ urlpatterns = [
     path('update_book_data', update_book_data, name='update_book_data'),
     path('delete_book_data', delete_book_data, name='delete_book_data'),
     path('edit_book_data', edit_book_data, name='edit_book_data'),
+    path('customer', read_customer_data, name='read_customer_data'),
+    path('save_customer_data', save_customer_data, name='save_customer_data'),
     path('', say_hello),
 ]

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7cfe451-79d8-4cd9-bdba-c321c3a20ec4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/static/first_app/css/customer-product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/templates/customer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/first_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/first_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/templates/EditForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/templates/EditForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/templates/library.html" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/templates/library.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/first_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/first_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_project/urls.py" afterDir="false" />
     </list>
@@ -31,10 +31,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first_project/first_app/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="44" column="60" lean-forward="true" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/first_project/first_app/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="240">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="18" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -43,10 +55,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/customer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_project/first_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="65" column="35" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="35" />
+            <state relative-caret-position="248">
+              <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
                 <element signature="e#124#161#0" />
@@ -60,10 +81,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+              <folding>
+                <element signature="e#637#669#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/library.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="106" column="24" lean-forward="true" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+            <state relative-caret-position="620">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
               <folding>
                 <element signature="n#form#0;n#div#1;n#div#0;n#!!top" />
                 <element signature="n#form#1;n#div#1;n#div#0;n#!!top" />
@@ -72,32 +105,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/phone_book.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/calc.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="90" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first_project/first_app/static/first_app/css/customer-product.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/EditForm.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/templates/phone_book.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="54" column="35" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-              <folding>
-                <element signature="e#637#669#0" expanded="true" />
-              </folding>
+              <caret selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -107,8 +146,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -117,7 +156,12 @@
       <find>STATIC_URL = '/static/'</find>
       <find>sql</find>
       <find>library</find>
+      <find>sort</find>
+      <find>form</find>
     </findStrings>
+    <dirStrings>
+      <dir>F:\Aziziyan\codes\PythonPracticeHackerRank</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -141,12 +185,16 @@
         <option value="$PROJECT_DIR$/first_project/first_app/static/first_app/css/library.css" />
         <option value="$PROJECT_DIR$/first_project/first_app/static/first_app/js/calc.js" />
         <option value="$PROJECT_DIR$/../PythonPracticeHackerRank/itertools/itertools.product.py" />
-        <option value="$PROJECT_DIR$/first_project/first_app/models.py" />
-        <option value="$PROJECT_DIR$/first_project/first_app/forms.py" />
-        <option value="$PROJECT_DIR$/first_project/first_app/views.py" />
-        <option value="$PROJECT_DIR$/first_project/first_project/urls.py" />
         <option value="$PROJECT_DIR$/first_project/first_app/templates/library.html" />
         <option value="$PROJECT_DIR$/first_project/first_app/templates/EditForm.html" />
+        <option value="$PROJECT_DIR$/../PythonPracticeHackerRank/itertools/itertools.permutations.py" />
+        <option value="$PROJECT_DIR$/first_project/first_app/forms.py" />
+        <option value="$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/templates/customer.html" />
+        <option value="$PROJECT_DIR$/first_project/first_app/models.py" />
+        <option value="$PROJECT_DIR$/first_project/first_project/urls.py" />
+        <option value="$PROJECT_DIR$/first_project/first_app/templates/customer.html" />
+        <option value="$PROJECT_DIR$/first_project/first_app/views.py" />
+        <option value="$PROJECT_DIR$/first_project/first_app/static/first_app/css/customer-product.css" />
       </list>
     </option>
   </component>
@@ -170,21 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DjangoProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_site" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -212,12 +245,6 @@
             </path>
             <path>
               <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\Aziziyan\codes\DjangoClassProjects\first_site" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="first_site" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="first_site" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
@@ -230,6 +257,30 @@
               <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="first_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="first_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="first_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="first_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -243,6 +294,21 @@
               <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="first_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="first_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DjangoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="first_site" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -280,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.itertools.product">
+  <component name="RunManager" selected="Python.itertools.permutations">
     <configuration name="StringFormatting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPracticeHackerRank" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -295,6 +361,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonPracticeHackerRank/Strings/StringFormatting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="itertools.permutations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonPracticeHackerRank" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonPracticeHackerRank/itertools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonPracticeHackerRank/itertools/itertools.permutations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -326,6 +413,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.itertools.permutations" />
         <item itemvalue="Python.itertools.product" />
         <item itemvalue="Python.StringFormatting" />
       </list>
@@ -440,26 +528,39 @@
       <option name="project" value="LOCAL" />
       <updated>1557667054740</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added table Book and Borrower and book_borrower relation">
+      <created>1557669249444</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1557669249444</updated>
+    </task>
+    <task id="LOCAL-00016" summary="itertools.permutations learned and implemented">
+      <created>1557750263809</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1557750263809</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28742516" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27644712" />
       <window_info id="Structure" order="1" weight="0.249501" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49676377" weight="0.34640524" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39952436" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936978" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50323623" side_tool="true" weight="0.35434008" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32936978" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3480392" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31535947" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -490,32 +591,81 @@
     <MESSAGE value="learned product (cartesian product of lists)" />
     <MESSAGE value="verbose_name added" />
     <MESSAGE value="form.is_valid added so the form would be validated before updating the DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="form.is_valid added so the form would be validated before updating the DB" />
+    <MESSAGE value="added table Book and Borrower and book_borrower relation" />
+    <MESSAGE value="itertools.permutations learned and implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="itertools.permutations learned and implemented" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../PythonPracticeHackerRank/itertools/itertools.permutations.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../PythonPracticeHackerRank/itertools/itertools.permutations.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../PythonPracticeHackerRank/itertools/itertools.permutations.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="s" language="Python" />
+        <watch expression="s.sort()" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>bin(n)</expression-string>
+        <expression-string>s.sort()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>bin(n)[2:]</expression-string>
+        <expression-string>s.sorted()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(bin(n)[2:])</expression-string>
+        <expression-string>s</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(&quot;{0:b}&quot;.format(n))</expression-string>
+        <expression-string>list(input[0]).sort()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>&quot;{0:b}&quot;.format(n)</expression-string>
+        <expression-string>list(input[0])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list(s)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s.split(&quot;&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s.split('')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s.split()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -557,14 +707,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/first_project/first_app/static/first_app/css/library.css" />
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/calc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="90" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/first_project/first_app/static/first_app/js/calc.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -573,18 +715,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/phone_book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../PythonPracticeHackerRank/Division.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PythonPracticeHackerRank/Strings/AlphabelRangoli.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../PythonPracticeHackerRank/Strings/Capitalize.py">
@@ -594,13 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PythonPracticeHackerRank/itertools/itertools.product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -631,23 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -655,20 +762,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/forms.py">
+    <entry file="file://$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/templates/phone_book.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="1080">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PythonPracticeHackerRank/Strings/FindAString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PythonPracticeHackerRank/Strings/AlphabelRangoli.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PythonPracticeHackerRank/itertools/itertools.product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" lean-forward="true" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PythonPracticeHackerRank/itertools/itertools.permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/practice (1).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="25" selection-start-line="25" selection-end-line="41" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/templates/customer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/phone_book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/calc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="90" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/library.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding>
+            <element signature="n#form#0;n#div#1;n#div#0;n#!!top" />
+            <element signature="n#form#1;n#div#1;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="e#637#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/EditForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/customer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/first_project/first_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="65" column="35" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="35" />
+        <state relative-caret-position="248">
+          <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
             <element signature="e#124#161#0" />
@@ -680,38 +881,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/templates/phone_book.html">
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/static/first_app/css/customer-product.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="54" column="35" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="35" />
+        <state relative-caret-position="291">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+        <state relative-caret-position="301">
+          <caret line="44" column="60" lean-forward="true" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
           <folding>
-            <element signature="e#637#669#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/library.html">
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="106" column="24" lean-forward="true" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+        <state relative-caret-position="240">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="18" />
           <folding>
-            <element signature="n#form#0;n#div#1;n#div#0;n#!!top" />
-            <element signature="n#form#1;n#div#1;n#div#0;n#!!top" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/EditForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>

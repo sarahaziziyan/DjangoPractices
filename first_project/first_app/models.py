@@ -25,3 +25,28 @@ class Book_Borrower(Model):
     borrower = models.ForeignKey(Borrower, on_delete=models.PROTECT)
     date_borrow = models.DateField(default=now())
     time_borrow = models.TimeField(default=now())
+
+
+class Product(models.Model):
+    productId = models.FloatField(max_length=8, primary_key=True)
+    name = models.CharField(max_length=128)
+    price = models.CharField(max_length=128)
+    inventory = models.FloatField(max_length=10)
+
+    def __str__(self):
+        return self.name
+
+
+class Customer(models.Model):
+    nationalCode = models.CharField(max_length=10, primary_key=True)
+    firstName = models.CharField(max_length=128)
+    lastName = models.CharField(max_length=128)
+    email = models.CharField(max_length=128)
+    product = models.ManyToManyField(Product, through='Buy')
+
+
+class Buy(models.Model):
+    customer = models.ForeignKey(Customer, on_delete=models.PROTECT)
+    product = models.ForeignKey(Product, on_delete=models.PROTECT)
+    buy_date = models.DateField(default=now())
+    count = models.CharField(max_length=64)

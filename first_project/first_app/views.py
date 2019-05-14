@@ -101,3 +101,13 @@ def update_book_data(request):
     if form.is_valid():
         form.save()
     return read_book_data(request)
+
+
+def read_customer_data(request):
+    form = CustomerForm()
+    return render(request, 'customer.html', {'form' : form, 'rows': Customer.objects.all()})
+
+
+def save_customer_data(request):
+    form = CustomerForm()
+    return render(request,'customer.html',{'form' : form })
