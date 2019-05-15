@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7cfe451-79d8-4cd9-bdba-c321c3a20ec4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/first_project/first_app/static/first_app/css/customer-product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/first_app/templates/customer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/static/first_app/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/static/first_app/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/static/first_app/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/static/first_app/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/static/first_app/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/static/first_app/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/static/first_app/fonts/fontawesome-webfont.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/first_app/static/first_app/css/customer-product.css" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/static/first_app/css/customer-product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/first_app/templates/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/templates/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/first_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/first_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_project/urls.py" afterDir="false" />
     </list>
@@ -33,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_project/first_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="44" column="60" lean-forward="true" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+            <state relative-caret-position="-174">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="33" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -42,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_project/first_app/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="160">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -55,19 +60,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/customer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_project/first_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
+            <state relative-caret-position="306">
+              <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
                 <element signature="e#124#161#0" />
@@ -80,11 +76,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/shop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="206">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#637#669#0" expanded="true" />
               </folding>
@@ -93,50 +98,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/library.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-              <folding>
-                <element signature="n#form#0;n#div#1;n#div#0;n#!!top" />
-                <element signature="n#form#1;n#div#1;n#div#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/phone_book.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/calc.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="90" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="90" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/first_project/first_app/static/first_app/css/font-awesome.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_project/first_app/static/first_app/css/customer-product.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/EditForm.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="129">
+              <caret line="51" column="8" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -190,11 +160,12 @@
         <option value="$PROJECT_DIR$/../PythonPracticeHackerRank/itertools/itertools.permutations.py" />
         <option value="$PROJECT_DIR$/first_project/first_app/forms.py" />
         <option value="$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/templates/customer.html" />
+        <option value="$PROJECT_DIR$/first_project/first_app/templates/customer.html" />
         <option value="$PROJECT_DIR$/first_project/first_app/models.py" />
         <option value="$PROJECT_DIR$/first_project/first_project/urls.py" />
-        <option value="$PROJECT_DIR$/first_project/first_app/templates/customer.html" />
         <option value="$PROJECT_DIR$/first_project/first_app/views.py" />
         <option value="$PROJECT_DIR$/first_project/first_app/static/first_app/css/customer-product.css" />
+        <option value="$PROJECT_DIR$/first_project/first_app/templates/shop.html" />
       </list>
     </option>
   </component>
@@ -221,28 +192,6 @@
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
-            <path>
-              <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\Aziziyan\codes\DjangoClassProjects\first_site" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\Aziziyan\codes\DjangoClassProjects\first_site" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="first_site" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\Aziziyan\codes\DjangoClassProjects\first_site" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="first_site" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\Aziziyan\codes\DjangoClassProjects\first_site" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="first_site" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
             <path>
               <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
@@ -287,6 +236,15 @@
               <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="first_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fonts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="first_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -320,18 +278,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TaskManagerApp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/first_project/first_app/static/first_app/css" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Aziziyan\codes\DjangoPractices\first_project\first_app\static\first_app" />
-      <recent name="F:\Aziziyan\codes\DjangoPractices\first_project\first_app\static\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Aziziyan\codes\DjangoProject\first_project\first_app\static\first_app\css" />
+      <recent name="F:\Aziziyan\codes\DjangoProject\first_project\first_app\static\first_app\fonts" />
       <recent name="F:\Aziziyan\codes\DjangoPractices\first_project\first_app\templates" />
       <recent name="F:\Aziziyan\codes\DjangoPractices\first_project\first_app\static\first_app\js" />
       <recent name="F:\Aziziyan\codes\DjangoPractices\first_project\first_app\static\first_app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Aziziyan\codes\DjangoPractices\first_project\first_app\static\first_app" />
+      <recent name="F:\Aziziyan\codes\DjangoPractices\first_project\first_app\static\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -542,13 +502,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557750263809</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Product-Customer app&#10; - customer and product table added&#10; - customer form created.">
+      <created>1557832481415</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1557832481415</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27644712" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35329342" />
       <window_info id="Structure" order="1" weight="0.249501" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -560,7 +528,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936978" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50323623" side_tool="true" weight="0.35434008" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32936978" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31535947" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2859477" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -593,7 +561,8 @@
     <MESSAGE value="form.is_valid added so the form would be validated before updating the DB" />
     <MESSAGE value="added table Book and Borrower and book_borrower relation" />
     <MESSAGE value="itertools.permutations learned and implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="itertools.permutations learned and implemented" />
+    <MESSAGE value="Product-Customer app&#10; - customer and product table added&#10; - customer form created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Product-Customer app&#10; - customer and product table added&#10; - customer form created." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -810,16 +779,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/templates/customer.html">
+    <entry file="file://$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/templates/customer.html" />
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/library.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="860">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding>
+            <element signature="n#form#0;n#div#1;n#div#0;n#!!top" />
+            <element signature="n#form#1;n#div#1;n#div#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/phone_book.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="760">
           <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
         </state>
       </provider>
@@ -831,27 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/library.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-          <folding>
-            <element signature="n#form#0;n#div#1;n#div#0;n#!!top" />
-            <element signature="n#form#1;n#div#1;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="e#637#669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/EditForm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -859,17 +812,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/customer.html">
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/static/first_app/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        <state relative-caret-position="206">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#637#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/first_project/first_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
+        <state relative-caret-position="306">
+          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
             <element signature="e#124#161#0" />
@@ -883,28 +862,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/first_project/first_app/static/first_app/css/customer-product.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        <state relative-caret-position="129">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/models.py">
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/shop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="44" column="60" lean-forward="true" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="146">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
         </state>
       </provider>
     </entry>

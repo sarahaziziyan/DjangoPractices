@@ -1,3 +1,5 @@
+@import url('font-awesome.css');
+
 table {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -45,4 +47,17 @@ form {
 .lineContainer{
     width : 90%;
     display: block;
+}
+
+.myIcons{
+    position: relative;
+    cursor: pointer;
+    font-size: 20px !important;
+    padding-top: 5px;
+}
+.trashIcon {
+    color: #DA0000 !important;
+}
+.editIcon{
+    color: #367be3 !important;
 }

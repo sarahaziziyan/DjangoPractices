@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer</title>
+    {% load static %}
+    <link rel='stylesheet' type='text/css' href="{% static 'first_app/css/customer-product.css' %}" />
+</head>
+<body>
+    <h1>Customers</h1>
+    <table border="2">
+        <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>email</th>
+            <th>edit</th>
+            <th>delete</th>
+        </tr>
+        {% for instance in customerRows %}
+            <tr>
+                <td>{{instance.firstName}}</td>
+                <td>{{instance.lastName}}</td>
+                <td>{{instance.email}}</td>
+                <td><i class="fa fa-edit editIcon myIcons"></i></td>
+                <td><i class="fa fa-trash trashIcon myIcons"></i></td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <h1>Products</h1>
+    <table border="2">
+        <tr>
+            <th>ProductId</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Inventory</th>
+            <th>edit</th>
+            <th>delete</th>
+        </tr>
+        {% for instance in productRows %}
+            <tr>
+                <td>{{instance.productId}}</td>
+                <td>{{instance.name}}</td>
+                <td>{{instance.price}}</td>
+                <td>{{instance.inventory}}</td>
+                <td><i class="fa fa-edit editIcon myIcons"></i></td>
+                <td><i class="fa fa-trash trashIcon myIcons"></i></td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <form action="{% url 'save_customer_data' %}" method="POST">
+        {% csrf_token %}
+        <h2>Customer</h2><br>
+        <table>
+            {{ customerForm.as_table }}
+        </table>
+        <br>
+        <input type="submit" value="Add New Customer"><br>
+    </form>
+
+    <form action="{% url 'save_product_data' %}" method="POST">
+        {% csrf_token %}
+        <h2>Product</h2><br>
+        <table>
+            {{ productForm.as_table }}
+        </table>
+        <br>
+        <input type="submit" value="Add New Product"><br>
+    </form>
+</body>
+</html>

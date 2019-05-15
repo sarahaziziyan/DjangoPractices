@@ -103,11 +103,32 @@ def update_book_data(request):
     return read_book_data(request)
 
 
-def read_customer_data(request):
-    form = CustomerForm()
-    return render(request, 'customer.html', {'form' : form, 'rows': Customer.objects.all()})
+def read_shop_data(request):
+    customerForm = CustomerForm()
+    productForm = ProductForm()
+    return render(
+        request,
+        'shop.html',
+        {
+            'customerForm': customerForm,
+            'productForm': productForm,
+            'customerRows': Customer.objects.all(),
+            'productRows': Product.objects.all()
+        }
+    )
 
 
 def save_customer_data(request):
     form = CustomerForm()
-    return render(request,'customer.html',{'form' : form })
+    return render(request, 'shop.html', {'customerForm' : form })
+
+
+def save_product_data(request):
+    new_ins = Product(
+         productId=request.POST['productId'],
+         name=request.POST['name'],
+         price=request.POST['price'],
+         inventory=request.POST['inventory']
+    )
+    new_ins.save()
+    return read_shop_data(request)
