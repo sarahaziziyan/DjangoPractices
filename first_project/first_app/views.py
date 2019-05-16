@@ -132,3 +132,8 @@ def save_product_data(request):
     )
     new_ins.save()
     return read_shop_data(request)
+
+
+def delete_product_data(request):
+    Product.objects.get(productId=request.POST['productId']).delete()
+    return read_shop_data(request)

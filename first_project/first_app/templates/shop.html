@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>Customer</title>
     {% load static %}
-    <link rel='stylesheet' type='text/css' href="{% static 'first_app/css/customer-product.css' %}" />
+    <link rel='stylesheet' type='text/css' href="{% static 'first_app/css/shop.css' %}" />
+    <script type='text/javascript' charset='utf8' src="{% static 'first_app/js/jquery-1.11.3.min.js' %}"></script>
+    <script type='text/javascript' charset='utf8' src="{% static 'first_app/js/shop.js' %}"></script>
 </head>
 <body>
     <h1>Customers</h1>
@@ -28,7 +30,7 @@
     </table>
 
     <h1>Products</h1>
-    <table border="2">
+    <table id="productTable" border="2">
         <tr>
             <th>ProductId</th>
             <th>Name</th>
@@ -39,12 +41,13 @@
         </tr>
         {% for instance in productRows %}
             <tr>
+                {% csrf_token %}
                 <td>{{instance.productId}}</td>
                 <td>{{instance.name}}</td>
                 <td>{{instance.price}}</td>
                 <td>{{instance.inventory}}</td>
-                <td><i class="fa fa-edit editIcon myIcons"></i></td>
-                <td><i class="fa fa-trash trashIcon myIcons"></i></td>
+                <td><i class="fa fa-edit editIcon myIcons" productId={{instance.productId}}></i></td>
+                <td><i class="fa fa-trash trashIcon myIcons" productId={{instance.productId}}></i></td>
             </tr>
         {% endfor %}
     </table>

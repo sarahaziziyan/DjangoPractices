@@ -30,5 +30,6 @@ urlpatterns = [
     path('shop', read_shop_data, name='read_shop_data'),
     path('save_customer_data', save_customer_data, name='save_customer_data'),
     path('save_product_data', save_product_data, name='save_product_data'),
+    path('delete_product_data', delete_product_data, name='delete_product_data'),
     path('', say_hello),
 ]
