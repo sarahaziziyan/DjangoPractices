@@ -18,6 +18,7 @@ from django.urls import path
 from first_app.views import *
 
 urlpatterns = [
+    path('admin', admin.site.urls),
     path('read_data', read_data),
     path('save_data', save_data),
     path('calc', calc),
