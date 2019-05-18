@@ -34,3 +34,7 @@ urlpatterns = [
     path('delete_product_data', delete_product_data, name='delete_product_data'),
     path('', say_hello),
 ]
+
+from . import settings
+from django.contrib.staticfiles.urls import static
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

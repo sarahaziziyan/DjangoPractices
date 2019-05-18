@@ -124,13 +124,10 @@ def save_customer_data(request):
 
 
 def save_product_data(request):
-    new_ins = Product(
-         productId=request.POST['productId'],
-         name=request.POST['name'],
-         price=request.POST['price'],
-         inventory=request.POST['inventory']
-    )
-    new_ins.save()
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
     return read_shop_data(request)
 
 

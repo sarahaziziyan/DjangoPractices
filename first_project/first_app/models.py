@@ -28,13 +28,16 @@ class Book_Borrower(Model):
 
 
 class Product(models.Model):
-    productId = models.FloatField(max_length=8, primary_key=True)
-    name = models.CharField(max_length=128)
-    price = models.CharField(max_length=128)
-    inventory = models.FloatField(max_length=10)
+    productId = models.CharField(max_length=8, primary_key=True)
+    title = models.CharField(max_length=128)
+    price = models.IntegerField()
+    inventory = models.IntegerField()
+    image= models.ImageField(upload_to='products')
+    date_made = models.DateField()
+    type = models.CharField(max_length=1, choices=[['C', 'CellPhones'], ['T', 'Television'], ['C', 'Computer']], default='C')
 
     def __str__(self):
-        return self.name
+        return self.title
 
 
 class Customer(models.Model):

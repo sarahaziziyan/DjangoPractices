@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c7cfe451-79d8-4cd9-bdba-c321c3a20ec4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/first_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/first_app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/first_app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/first_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/first_app/templates/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/templates/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/first_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/first_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_project/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/first_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_project/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_project/first_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="244">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="8" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -37,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/first_project/first_app/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -47,10 +54,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first_project/first_app/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/django.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+            <state relative-caret-position="132">
+              <caret line="64" column="50" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="50" />
               <folding>
                 <element signature="e#626#671#0" expanded="true" />
               </folding>
@@ -58,20 +74,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/first_project/first_project/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/shop.html">
+        <entry file="file://$PROJECT_DIR$/first_project/first_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1120">
-              <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+            <state relative-caret-position="132">
+              <caret line="127" column="42" lean-forward="true" selection-start-line="127" selection-start-column="42" selection-end-line="127" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#124#161#0" />
+                <element signature="e#187#1298#0" />
+                <element signature="e#1340#1439#0" />
+                <element signature="e#1470#1546#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,11 +93,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="446">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="e#637#669#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/shop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -135,16 +158,16 @@
         <option value="$PROJECT_DIR$/first_project/first_app/templates/library.html" />
         <option value="$PROJECT_DIR$/first_project/first_app/templates/EditForm.html" />
         <option value="$PROJECT_DIR$/../PythonPracticeHackerRank/itertools/itertools.permutations.py" />
-        <option value="$PROJECT_DIR$/first_project/first_app/forms.py" />
         <option value="$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/templates/customer.html" />
         <option value="$PROJECT_DIR$/first_project/first_app/templates/customer.html" />
+        <option value="$PROJECT_DIR$/first_project/first_app/static/first_app/css/customer-product.css" />
+        <option value="$PROJECT_DIR$/first_project/first_app/admin.py" />
+        <option value="$PROJECT_DIR$/first_project/first_project/settings.py" />
+        <option value="$PROJECT_DIR$/first_project/first_app/forms.py" />
         <option value="$PROJECT_DIR$/first_project/first_app/models.py" />
         <option value="$PROJECT_DIR$/first_project/first_app/views.py" />
-        <option value="$PROJECT_DIR$/first_project/first_app/static/first_app/css/customer-product.css" />
         <option value="$PROJECT_DIR$/first_project/first_app/templates/shop.html" />
-        <option value="$PROJECT_DIR$/first_project/first_app/admin.py" />
         <option value="$PROJECT_DIR$/first_project/first_project/urls.py" />
-        <option value="$PROJECT_DIR$/first_project/first_project/settings.py" />
       </list>
     </option>
   </component>
@@ -206,15 +229,7 @@
               <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="first_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="first_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -470,13 +485,20 @@
       <option name="project" value="LOCAL" />
       <updated>1557927777362</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added Admin (superuser)">
+      <created>1558181219167</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1558181219167</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35329342" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35329342" />
       <window_info id="Structure" order="1" weight="0.249501" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -488,7 +510,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936978" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50323623" side_tool="true" weight="0.35434008" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32936978" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2859477" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2859477" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32843137" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -549,7 +571,8 @@
     <MESSAGE value="itertools.permutations learned and implemented" />
     <MESSAGE value="Product-Customer app&#10; - customer and product table added&#10; - customer form created." />
     <MESSAGE value="Product-Customer app&#10; - product table developed&#10; - can add product" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product-Customer app&#10; - product table developed&#10; - can add product" />
+    <MESSAGE value="added Admin (superuser)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Admin (superuser)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -680,15 +703,6 @@
     <entry file="file://$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -792,31 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <element signature="e#124#161#0" />
-            <element signature="e#187#1298#0" />
-            <element signature="e#1340#1439#0" />
-            <element signature="e#1470#1546#0" />
-            <element signature="e#1577#1701#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/first_project/first_app/static/first_app/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -827,19 +816,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/shop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+        <state relative-caret-position="280">
+          <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="127" column="42" lean-forward="true" selection-start-line="127" selection-start-column="42" selection-end-line="127" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#124#161#0" />
+            <element signature="e#187#1298#0" />
+            <element signature="e#1340#1439#0" />
+            <element signature="e#1470#1546#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/django.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        <state relative-caret-position="132">
+          <caret line="64" column="50" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="50" />
           <folding>
             <element signature="e#626#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#637#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -848,33 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#637#669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_project/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>

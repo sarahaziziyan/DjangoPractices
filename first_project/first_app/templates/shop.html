@@ -33,9 +33,12 @@
     <table id="productTable" border="2">
         <tr>
             <th>ProductId</th>
-            <th>Name</th>
+            <th>Title</th>
             <th>Price</th>
             <th>Inventory</th>
+            <th>DateMade</th>
+            <th>type</th>
+            <th>Image</th>
             <th>edit</th>
             <th>delete</th>
         </tr>
@@ -43,9 +46,12 @@
             <tr>
                 {% csrf_token %}
                 <td>{{instance.productId}}</td>
-                <td>{{instance.name}}</td>
+                <td>{{instance.title}}</td>
                 <td>{{instance.price}}</td>
                 <td>{{instance.inventory}}</td>
+                <td>{{instance.date_made}}</td>
+                <td>{{instance.type}}</td>
+                <td><img width="150" src="{{instance.image.urls}}"/></td>
                 <td><i class="fa fa-edit editIcon myIcons" productId={{instance.productId}}></i></td>
                 <td><i class="fa fa-trash trashIcon myIcons" productId={{instance.productId}}></i></td>
             </tr>
@@ -62,7 +68,7 @@
         <input type="submit" value="Add New Customer"><br>
     </form>
 
-    <form action="{% url 'save_product_data' %}" method="POST">
+    <form action="{% url 'save_product_data' %}" method="POST" enctype="multipart/form-data">
         {% csrf_token %}
         <h2>Product</h2><br>
         <table>
