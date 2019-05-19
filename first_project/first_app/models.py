@@ -34,7 +34,7 @@ class Product(models.Model):
     inventory = models.IntegerField()
     image= models.ImageField(upload_to='products')
     date_made = models.DateField()
-    type = models.CharField(max_length=1, choices=[['C', 'CellPhones'], ['T', 'Television'], ['C', 'Computer']], default='C')
+    type = models.CharField(max_length=1, choices=[['C', 'CellPhones'], ['T', 'Television'], ['L', 'Laptops']], default='C')
 
     def __str__(self):
         return self.title

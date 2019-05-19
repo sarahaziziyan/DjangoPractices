@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7cfe451-79d8-4cd9-bdba-c321c3a20ec4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/first_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/first_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project/first_app/templates/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/templates/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_project/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +26,30 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first_project/first_project/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/shop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="51" column="40" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_project/first_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="264">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -44,69 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/first_project/first_app/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first_project/first_app/forms.py">
+        <entry file="file://I:/djangoPractices/second_site/second_app/templates/car.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/django.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="64" column="50" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="50" />
-              <folding>
-                <element signature="e#626#671#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first_project/first_app/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="127" column="42" lean-forward="true" selection-start-line="127" selection-start-column="42" selection-end-line="127" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-                <element signature="e#124#161#0" />
-                <element signature="e#187#1298#0" />
-                <element signature="e#1340#1439#0" />
-                <element signature="e#1470#1546#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="e#637#669#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/shop.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
+            <state relative-caret-position="160">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -129,6 +84,9 @@
       <find>sort</find>
       <find>form</find>
       <find>admin</find>
+      <find>media</find>
+      <find>media.</find>
+      <find>ALLOWED_HOSTS</find>
     </findStrings>
     <dirStrings>
       <dir>F:\Aziziyan\codes\PythonPracticeHackerRank</dir>
@@ -161,13 +119,13 @@
         <option value="$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/templates/customer.html" />
         <option value="$PROJECT_DIR$/first_project/first_app/templates/customer.html" />
         <option value="$PROJECT_DIR$/first_project/first_app/static/first_app/css/customer-product.css" />
+        <option value="$PROJECT_DIR$/first_project/first_app/forms.py" />
+        <option value="$PROJECT_DIR$/first_project/first_app/views.py" />
+        <option value="$PROJECT_DIR$/first_project/first_project/urls.py" />
         <option value="$PROJECT_DIR$/first_project/first_app/admin.py" />
         <option value="$PROJECT_DIR$/first_project/first_project/settings.py" />
-        <option value="$PROJECT_DIR$/first_project/first_app/forms.py" />
-        <option value="$PROJECT_DIR$/first_project/first_app/models.py" />
-        <option value="$PROJECT_DIR$/first_project/first_app/views.py" />
         <option value="$PROJECT_DIR$/first_project/first_app/templates/shop.html" />
-        <option value="$PROJECT_DIR$/first_project/first_project/urls.py" />
+        <option value="$PROJECT_DIR$/first_project/first_app/models.py" />
       </list>
     </option>
   </component>
@@ -211,31 +169,25 @@
           <expand>
             <path>
               <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="I:\djangoPractices" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
               <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="first_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="I:\djangoPractices" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="second_site" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="first_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="I:\djangoPractices" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="second_site" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="second_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="first_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="first_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="I:\djangoPractices" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="second_site" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="second_app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DjangoProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\Aziziyan\codes\DjangoProject" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="first_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="first_project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -247,7 +199,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/first_project/first_app/static/first_app/css" />
+    <property name="last_opened_file_path" value="I:/djangoPractices" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -492,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558181219167</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Product-Customer app&#10; - product table modified&#10; - saving the image file has bugs">
+      <created>1558184030312</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1558184030312</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -551,6 +510,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="calc app + button completed" />
@@ -572,7 +545,8 @@
     <MESSAGE value="Product-Customer app&#10; - customer and product table added&#10; - customer form created." />
     <MESSAGE value="Product-Customer app&#10; - product table developed&#10; - can add product" />
     <MESSAGE value="added Admin (superuser)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Admin (superuser)" />
+    <MESSAGE value="Product-Customer app&#10; - product table modified&#10; - saving the image file has bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product-Customer app&#10; - product table modified&#10; - saving the image file has bugs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -809,20 +783,7 @@
     <entry file="file://$PROJECT_DIR$/first_project/first_app/static/first_app/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/static/first_app/css/customer-product.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="51" column="8" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_project/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/static/first_app/css/customer-product.css" />
     <entry file="file://$PROJECT_DIR$/../DjangoClassProjects/first_site/first_site/first_app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -833,43 +794,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/shop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="127" column="42" lean-forward="true" selection-start-line="127" selection-start-column="42" selection-end-line="127" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <element signature="e#124#161#0" />
-            <element signature="e#187#1298#0" />
-            <element signature="e#1340#1439#0" />
-            <element signature="e#1470#1546#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/django.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="146">
           <caret line="64" column="50" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="50" />
           <folding>
             <element signature="e#626#671#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#637#669#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -881,20 +811,113 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://I:/djangoPractices/first_project/first_app/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://I:/djangoPractices/second_site/second_app/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#637#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="115" column="48" selection-start-line="115" selection-start-column="48" selection-end-line="115" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#124#161#0" />
+            <element signature="e#187#1298#0" />
+            <element signature="e#1340#1439#0" />
+            <element signature="e#1470#1546#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://I:/djangoPractices/second_site/second_app/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://I:/djangoPractices/second_site/second_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://I:/djangoPractices/second_site/second_site/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://I:/djangoPractices/second_site/second_site/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="27" selection-start-line="27" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/first_project/first_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="264">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/first_app/admin.py">
+    <entry file="file://I:/djangoPractices/second_site/second_app/templates/car.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="160">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://I:/djangoPractices/second_site/second_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/first_app/templates/shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="51" column="40" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="40" />
         </state>
       </provider>
     </entry>
